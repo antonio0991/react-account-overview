@@ -1,0 +1,36 @@
+.Sales {
+  background-color: #ffffff;
+  margin: 4vh 6% 0vh 0vh;
+  text-align: justify;
+  border: 3px #000000;
+}
+
+.Text {
+  padding: 2vh 0 2vh 0;
+  margin-left: 2vh;
+}
+
+.Upload {
+  padding: 2vh 0 2vh 0;
+  margin-left: 2vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Info {
+  display: flex;
+  text-align: end;
+}
+
+.text-sale {
+  font-size: 2.5vh;
+}
+
+@media (max-width: 800px) {
+  .progressWrapper {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    color: #9b9898;
+  }
+}

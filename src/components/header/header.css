@@ -1,0 +1,41 @@
+.Header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 15px;
+}
+
+.HeaderText {
+  width: 50%;
+  text-align: justify;
+}
+
+.Initial {
+  display: 'flex';
+  background-color: #f9cf05;
+  width: '80px';
+  height: '80px';
+  justify-content: 'center';
+  align-items: 'center';
+  font-size: '40px';
+  border-radius: '20px';
+}
+
+.IconWrapper {
+  display: 'flex';
+  margin-top: '1.5vh';
+}
+
+@media (max-width: 800px) {
+  .Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Text-Header {
+    width: 100%;
+    margin-left: 3vh;
+    text-align: center;
+  }
+}

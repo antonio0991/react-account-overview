@@ -1,0 +1,25 @@
+.progressWrapper {
+  display: flex;
+  font-weight: bolder;
+  color: #9b9898;
+}
+
+.Percentage {
+  font-size: xxx-large;
+  font-weight: bolder;
+  color: #22ab55;
+}
+
+.progress {
+  padding: 2vh 0 2vh 2vh;
+  width: 50%;
+  border: 1px solid #eaeaea;
+}
+
+@media (max-width: 800px) {
+  .progress {
+    border: 1px solid #eaeaea;
+    width: unset;
+    text-align: center;
+  }
+}
